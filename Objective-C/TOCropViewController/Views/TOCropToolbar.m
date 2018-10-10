@@ -78,7 +78,7 @@
                                                                   nil)
                      forState:UIControlStateNormal];
     [_doneTextButton setTitleColor:[UIColor colorWithRed:1.0f green:0.8f blue:0.0f alpha:1.0f] forState:UIControlStateNormal];
-    [_doneTextButton.titleLabel setFont:[UIFont fontWithName:@"DroidArabicKufi" size:15.0]];
+    [_doneTextButton.titleLabel setFont:[UIFont systemFontOfSize:17.0f]];
     [_doneTextButton addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     [_doneTextButton sizeToFit];
     [self addSubview:_doneTextButton];
@@ -97,7 +97,7 @@
 																	resourceBundle,
                                                                     nil)
                        forState:UIControlStateNormal];
-    [_cancelTextButton.titleLabel setFont:[UIFont fontWithName:@"DroidArabicKufi" size:15.0]];
+    [_cancelTextButton.titleLabel setFont:[UIFont systemFontOfSize:17.0f]];
     [_cancelTextButton addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     [_cancelTextButton sizeToFit];
     [self addSubview:_cancelTextButton];
